@@ -9,5 +9,5 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/SimularCredito.feature"
         , glue = {"stepdefinitions"}
         , plugin = {"pretty", "html:target/cucumber/ReporteSimularCredito", "json:target/SimularCreditoRunner.json"})
-public class SimularCredito {
+public class SimularCreditoRunner {
 }

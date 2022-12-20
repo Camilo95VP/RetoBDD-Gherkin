@@ -4,7 +4,7 @@ import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
 
-public class SimularCredito {
+public class SimularCreditoStep {
     @Dado("que el cliente navego en la sucursal virtual hasta el portafolio de creditos")
     public void queElClienteNavegoEnLaSucursalVirtualHastaElPortafolioDeCreditos() {
     }

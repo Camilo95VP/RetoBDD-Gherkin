@@ -4,7 +4,7 @@ import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
 
-public class PagarCredito {
+public class PagarCreditoStep {
     @Dado("que el cliente navego hasta el credito que tiene activo con el banco")
     public void queElClienteNavegoHastaElCreditoQueTieneActivoConElBanco() {
     }

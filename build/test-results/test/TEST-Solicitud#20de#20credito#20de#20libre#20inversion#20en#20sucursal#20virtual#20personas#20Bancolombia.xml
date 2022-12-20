@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Solicitud de credito de libre inversion en sucursal virtual personas Bancolombia" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-12-20T17:18:15" hostname="CAMILO" time="0.086">
+  <properties/>
+  <testcase name="Solicitar credito libre inversion fallida" classname="Solicitud de credito de libre inversion en sucursal virtual personas Bancolombia" time="0.077"/>
+  <testcase name="Solicitar credito de libre inversion existoso" classname="Solicitud de credito de libre inversion en sucursal virtual personas Bancolombia" time="0.009"/>
+  <system-out><![CDATA[
+Escenario: Solicitar credito libre inversion fallida                                                          ?[90m# src/test/resources/features/SolicitarCredito.feature:11?[0m
+  ?[32mDado ?[0m?[32mque el cliente navego hasta la seccion de solicitud de creditos?[0m                                        ?[90m# stepdefinitions.SolicitarCreditoStep.queElClienteNavegoHastaLaSeccionDeSolicitudDeCreditos()?[0m
+  ?[32mCuando ?[0m?[32mel cliente suministre la informacion incompleta para credito de libre inversion y presione solicitar?[0m ?[90m# stepdefinitions.SolicitarCreditoStep.elClienteSuministreLaInformacionIncompletaParaCreditoDeLibreInversionYPresioneSolicitar()?[0m
+  ?[32mEntonces ?[0m?[32mse mostrara advertencia de que falta informacion para solicitar el credito?[0m                         ?[90m# stepdefinitions.SolicitarCreditoStep.seMostraraAdvertenciaDeQueFaltaInformacionParaSolicitarElCredito()?[0m
+
+Escenario: Solicitar credito de libre inversion existoso                                                     ?[90m# src/test/resources/features/SolicitarCredito.feature:15?[0m
+  ?[32mDado ?[0m?[32mque el cliente navego hasta la seccion de solicitud de creditos?[0m                                       ?[90m# stepdefinitions.SolicitarCreditoStep.queElClienteNavegoHastaLaSeccionDeSolicitudDeCreditos()?[0m
+  ?[32mCuando ?[0m?[32mel cliente suministre la informacion necesaria para credito de libre inversion y presione solicitar?[0m ?[90m# stepdefinitions.SolicitarCreditoStep.elClienteSuministreLaInformacionNecesariaParaCreditoDeLibreInversionYPresioneSolicitar()?[0m
+  ?[32mEntonces ?[0m?[32mse mostrara solicitud de credito enviada exitosamente?[0m                                             ?[90m# stepdefinitions.SolicitarCreditoStep.seMostraraSolicitudDeCreditoEnviadaExitosamente()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
