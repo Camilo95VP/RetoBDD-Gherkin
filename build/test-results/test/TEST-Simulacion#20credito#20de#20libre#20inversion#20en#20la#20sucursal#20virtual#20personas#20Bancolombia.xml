@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Simulacion credito de libre inversion en la sucursal virtual personas Bancolombia" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-12-20T17:11:54" hostname="CAMILO" time="0.086">
+  <properties/>
+  <testcase name="Validar ingreso al simulador de creditos" classname="Simulacion credito de libre inversion en la sucursal virtual personas Bancolombia" time="0.078"/>
+  <testcase name="Simular credito de libre inversion" classname="Simulacion credito de libre inversion en la sucursal virtual personas Bancolombia" time="0.008"/>
+  <system-out><![CDATA[
+Escenario: Validar ingreso al simulador de creditos                                 ?[90m# src/test/resources/features/SimularCredito.feature:8?[0m
+  ?[32mDado ?[0m?[32mque el cliente navego en la sucursal virtual hasta el portafolio de creditos?[0m ?[90m# stepdefinitions.SimularCredito.queElClienteNavegoEnLaSucursalVirtualHastaElPortafolioDeCreditos()?[0m
+  ?[32mCuando ?[0m?[32mel cliente selecciona simular credito?[0m                                      ?[90m# stepdefinitions.SimularCredito.elClienteSeleccionaSimularCredito()?[0m
+  ?[32mEntonces ?[0m?[32mse mostrara el formulario para simular el credito?[0m                        ?[90m# stepdefinitions.SimularCredito.seMostraraElFormularioParaSimularElCredito()?[0m
+
+Escenario: Simular credito de libre inversion                                                              ?[90m# src/test/resources/features/SimularCredito.feature:14?[0m
+  ?[32mDado ?[0m?[32mque el cliente navego hasta el simulador de creditos?[0m                                                ?[90m# stepdefinitions.SimularCredito.queElClienteNavegoHastaElSimuladorDeCreditos()?[0m
+  ?[32mCuando ?[0m?[32mel cliente suministre la informacion necesaria para credito de libre inversion y presione simular?[0m ?[90m# stepdefinitions.SimularCredito.elClienteSuministreLaInformacionNecesariaParaCreditoDeLibreInversionYPresioneSimular()?[0m
+  ?[32mEntonces ?[0m?[32mse mostrara el resultado de la simulacion?[0m                                                       ?[90m# stepdefinitions.SimularCredito.seMostraraElResultadoDeLaSimulacion()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
